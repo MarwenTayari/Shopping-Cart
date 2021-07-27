@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/f91520ac77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/styles.css">
+    <script src="Js/index.js" async></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clipartmax.com/png/middle/172-1723816_trolley-clipart-shopping-cart-shopping-cart-icon-png.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>SHOPPING CART</title>
+</head>
+<body >
+  <header class=""> 
+  <div class="section">
+     <div id="divtitle">
+         <h2 id="TitlePage">shopping cart </h2> 
+     </div>
+             <div class="buttonsPosition">     
+                 <button onclick="openModel ()" type="button" class="btn cart btn-primary bluebtn cartButton" data-toggle="modal" data-target="#cart">
+                    <i class="fas fa-shopping-cart" ></i> Cart (<span class="itemInCat">0</span>)
+                 </button>
+                 <button class="btn redbtn ClearButton">Clear Cart</button>
+            </div>
+   </div>
+  </header>
+    
+  <main class="section backgroundindex">
+    <div class="T-shirt">
+    <h2 class="ProductType" id="firstTitle"> T-Shirts : </h2>
+
+    <div class="ProductSection">
+      <div class="container">
+          <div class="image">
+          <img src="Images/blacktshirt.jpg" alt="Black T-Shirt">       
+          <h3 class="productName">Black T-Shirt </h3> 
+          <h3 class="price">40,00 Dt</h3>  
+          <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+          <button class="Toadd" >Add Cart</button> 
+        </div>
+      </div> 
+
+      <div class="container">
+        <div class="image">
+        <img src="Images/bluetshirt.jpg" alt="Blue T-Shirt">
+        <h3 class="productName">Blue T-Shirt</h3>
+        <h3 class="price">37,00 Dt</h3>
+        <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+        <button  class="Toadd" >Add Cart</button>
+        </div> 
+      </div> 
+
+      <div class="container">
+       <div class="image">
+       <img src="Images/redtshirt.jpg" alt="Red T-Shirt">
+       <h3 class="productName">Red T-Shirt</h3>
+       <h3 class="price">35,00 Dt</h3>
+       <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+       <button  class="Toadd" >Add Cart</button>
+       </div> 
+      </div> 
+
+      <div class="container">
+       <div class="image">
+       <img src="Images/browntshirt.jpg" alt="Brown T-Shirt">
+       <h3 class="productName">Brown T-Shirt</h3>
+       <h3 class="price">36,00 Dt</h3>
+       <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+       <button  class="Toadd" >Add Cart</button>
+       </div> 
+      </div>
+
+      <div class="container">
+       <div class="image">
+       <img src="Images/yellowtshirt.jpg" alt="Yellow T-Shirt">
+       <h3 class="productName">Yellow T-Shirt</h3>
+       <h3 class="price">30,00 Dt</h3>
+       <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+       <button  class="Toadd" >Add Cart</button>
+       </div> 
+      </div>
+
+      <div class="container">
+        <div class="image">
+        <img src="Images/whitetshirt.jpg" alt="White T-Shirt">
+        <h3 class="productName">White T-Shirt</h3>
+        <h3 class="price">37,00 Dt</h3>
+        <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+        <button  class="Toadd" >Add Cart</button>
+      </div> 
+    </div> 
+    </div>
+    </div> 
+
+    <div class="Trouses">
+        <a name="Trouses"> </a>
+    <h2 class="ProductType">Trousers : </h2>
+    <div class="ProductSection">
+        <div class="container">
+            <div class="image">
+            <img src="Images/redtrouser.jpg" alt="Red-Trouser">
+            <h3 class="productName">Red-Trouser</h3>
+            <h3 class="price">50,00 Dt</h3>
+            <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button  class="Toadd" >Add Cart</button>
+            </div> 
+        </div> 
+
+        <div class="container">
+            <div class="image">
+            <img src="Images/greentrouser.jpg" alt="Green-Trouser">
+            <h3 class="productName">Green-Trouser</h3>
+            <h3 class="price">45,00 Dt</h3>
+            <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button class="Toadd" >Add Cart</button>
+            </div> 
+        </div>
+
+        <div class="container">
+            <div class="image">
+            <img src="Images/bluetrouser.jpg" alt="Blue-Trouser">
+            <h3 class="productName">Blue-Trouser</h3>
+            <h3 class="price">47,00 Dt</h3>
+            <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button  class="Toadd" >Add Cart</button>
+            </div> 
+        </div>
+
+        <div class="container">
+            <div class="image">
+            <img src="Images/militarytrouser.jpg" alt="Military_green-Trouser">
+            <h3 class="productName">Military Trouser</h3>
+            <h3 class="price">40,00 Dt</h3>
+            <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button class="Toadd" >Add Cart</button>
+            </div> 
+        </div>
+
+        <div class="container">
+            <div class="image">
+            <img src="Images/beigetrouser.jpg" alt="Beige-Trouser">
+            <h3 class="productName">Beige-Trouser</h3>
+            <h3 class="price">42,00 Dt</h3>
+            <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button  class="Toadd" >Add Cart</button>
+            </div> 
+        </div>
+
+        <div class="container">
+            <div class="image">
+            <img src="Images/yellowtrouser.jpg" alt="Yellow_Trouser">
+            <h3 class="productName">Yellow-Trouser</h3>
+            <h3 class="price">50,00 Dt</h3>
+            <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+            <button  class="Toadd" >Add Cart</button>
+            </div> 
+        </div> 
+
+        
+    </div>
+    </div>
+
+    <div class="Shoes">
+        <h2 class="ProductType">Shoes : </h2>
+        <div class="ProductSection">
+            <div class="container">
+                <div class="image">
+                <img src="Images/blackmoccasin.jpg" alt="Black_Moccasin">
+                <h3 class="productName">Black Moccasin</h3>
+                <h3 class="price">70,00 Dt</h3>
+                <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button  class="Toadd" >Add Cart</button>
+                </div> 
+            </div> 
+    
+            <div class="container">
+                <div class="image">
+                <img src="Images/blackshoe.jpg" alt="Black_Shoe">
+                <h3 class="productName">Black Shoe</h3>
+                <h3 class="price">80,00 Dt</h3>
+                <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button  class="Toadd" >Add Cart</button>
+                </div> 
+            </div>
+    
+            <div class="container">
+                <div class="image">
+                <img src="Images/bluemoccasin.jpg" alt="Blue_Moccasin">
+                <h3 class="productName">Blue Moccasin</h3>
+                <h3 class="price">75,00 Dt</h3>
+                <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button class="Toadd" >Add Cart</button>
+                </div> 
+            </div>
+    
+            <div class="container">
+                <div class="image">
+                <img src="Images/redshoe.jpg" alt="Red_Shoe">
+                <h3 class="productName">Red Shoe</h3>
+                <h3 class="price">60,00 Dt</h3>
+                <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button  class="Toadd" >Add Cart</button>
+                </div> 
+            </div>
+    
+            <div class="container">
+                <div class="image">
+                <img src="Images/whiteshoe.jpg" alt="White_Shoe">
+                <h3 class="productName">White Shoe</h3>
+                <h3 class="price">75,00 Dt</h3>
+                <a class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button  class="Toadd" >Add Cart</button>
+                </div> 
+            </div>
+
+            <div class="container">
+                <div class="image">
+                <img src="Images/yellowshoe.jpg" alt="Yellow_Shoe">
+                <h3 class="productName">Yellow Shoe</h3>
+                <h3 class="price">65,00 Dt</h3>
+                <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                <button  class="Toadd" >Add Cart</button>
+                </div> 
+            </div>
+        </div>
+        </div>
+
+
+        <div class="Caps" id="capsPosition">
+            <h2 class="ProductType" >Caps : </h2>
+            <div class="ProductSection">
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/blackcap.jpg" alt="Black-Cap">
+                    <h3 class="productName">Black Cap</h3>
+                    <h3 class="price">40,00 Dt</h3>
+                    <a class="heart"> <i class="fas fa-heart heartHover"></i></a>
+                    <button  class="Toadd" >Add Cart</button>
+                    </div> 
+                </div> 
+        
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/bluecap.jpg" alt="Blue-Cap">
+                    <h3 class="productName">Blue Cap</h3>
+                    <h3 class="price">38,00 Dt</h3>
+                    <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                    <button  class="Toadd" >Add Cart</button>
+                    </div> 
+                </div>
+        
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/greycap.jpg" alt="Grey-Cap">
+                    <h3 class="productName">Grey Cap</h3>
+                    <h3 class="price">35,00 Dt</h3>
+                    <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                    <button  class="Toadd" >Add Cart</button>
+                    </div> 
+                </div>
+        
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/multicolorcap.jpg" alt="Multi_Color-Cap">
+                    <h3 class="productName">Multi Color Cap</h3>
+                    <h3 class="price">36,00 Dt</h3>
+                    <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                    <button  class="Toadd" >Add Cart</button>
+                    </div> 
+                </div>
+        
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/redcap.jpg" alt="Red-Cap">
+                    <h3 class="productName">Red Cap</h3>
+                    <h3 class="price">30,00 Dt</h3>
+                    <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                    <button  class="Toadd" >Add Cart</button>
+                    </div> 
+                </div>
+
+                <div class="container">
+                    <div class="image">
+                    <img src="Images/yellowcap.jpg" alt="Yellow-Cap">
+                    <h3 class="productName">Yellow Cap</h3>
+                    <h3 class="price">33,00 Dt</h3>
+                    <a  class="heart" > <i class="fas fa-heart heartHover"></i></a>
+                    <button class="Toadd" >Add Cart</button>
+                    </div> 
+                </div>
+            </div>
+            </div>      
+  </main>
+
+  <footer >
+      <div class="section">
+          <p id="footerContent">© 2020 Marwen Tayari, Tous droits réservés.</p>  
+      </div>
+  </footer>
+
+<!-- The Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <div class="headerModel">
+                <h2>My cart <i class="fas fa-shopping-cart" aria-hidden="true"></i> : </h2>
+            </div>
+            <div class="productsContainer">  
+                <div class="modelTitels"> 
+                    <h4 id="modelProductName">Product Name : </h4>
+                    <h4 id="modelPrice">Price : </h4>
+                    <h4 id="modelQuantity">Quantity : </h4>
+                </div>
+                <div class="products">
+                </div>
+            </div>
+        <div id="mytotalPrice" class="MytotalPrice" style="float:right;">
+            <h3 style="display:inline-block;">Total Price = <span class="total-cart">00</span>,00 Dt</h3> 
+        </div>
+
+        <div class="footerModel">
+            <button type="button" class="btn btn-primary orderButton" id="orderbutton">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+

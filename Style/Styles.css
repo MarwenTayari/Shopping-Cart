@@ -1,0 +1,502 @@
+body {
+    top:0;
+    left:0;
+    margin:0;
+    font-family: Roboto,'Times New Roman', Times, serif;
+    color: black;     
+}
+
+.section {
+    max-width: 1050px;
+    padding: 0 0px;
+    margin: 0 auto;
+    position:relative;
+    display:block;
+}
+
+header {
+    top:0;
+    position: fixed;
+    display: block;
+    width:100%; 
+    background-image: url('https://www.transentreprise.com/img?mode=1&w=855&h=480&url=/Offres/701C0042/Image/IMG_3311.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1050px;    
+    z-index: 2;   
+}
+
+main {
+    position: relative;
+    top: 75px;   
+}
+
+.backgroundindex {
+    background-image: url('https://monitorkeadilan.com/wp-content/uploads/2019/06/apparel-logo.jpg');
+    background-position:top center ;
+    background-size: 50%;
+}
+
+#capsPosition {
+ margin-bottom: 7em;
+}
+
+#firstTitle {
+    margin: 0 auto 0.5em auto;
+}
+
+#divtitle
+{
+background-color: rgba(77, 77, 255,0.7);
+display: inline-block;
+}
+
+#TitlePage {
+    color: white;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    display: inline-block;
+    text-transform: uppercase;
+    height: 100%; 
+}
+
+nav {
+    float: right; 
+}
+
+li {
+    display: inline-block; 
+    margin: 0; 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding: 1em;
+    transition: all .3s ease 0s;  
+    margin: 0;   
+}
+
+.buttonsPosition {
+float: right;
+margin: 0.5em 2em ;
+}
+
+.btn {
+  padding: 0.5em 0.75em;
+  border-radius: 1em;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 1.25em;
+  transition: all .3s ease 0s;
+}
+
+.bluebtn {
+    background-color:rgb(45, 228, 241) ;
+}
+
+.redbtn {
+    background-color:red;
+}
+
+.btn:hover {
+ color: orange;
+}
+
+header a:hover {
+    color:orange;
+    font-size: 1.5em;
+    font-weight: 900;
+    background-color: rgba(19, 18, 18, 0.5);
+}
+
+#inCart {
+    background-color : rgba(77, 77, 255,0.7);
+    height: 100%;  
+}
+
+.container img {
+   max-width: 100%;
+   max-height: 12em;
+   margin: 0 auto;
+   display: block;
+}
+
+.heartHover {
+    color: rgb(206, 194, 194);
+    transition: all .3s ease 0s; 
+}
+
+.heartHover:hover {
+    color: orange;
+}
+
+.ProductSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 1em;
+    width: 25%;
+    margin: 1em ;
+    transition: all .3s ease 0s; 
+    background-color: rgba(255, 255, 255,0.9);
+}
+
+.container:hover {
+    box-shadow: 5px 10px 8px 10px #888888; 
+}
+
+.image {  
+    padding: 10px 10px  
+}
+
+.ProductSection > h3 {
+    display: inline-block;   
+}
+
+.ProductSection a {
+    display: inline-block;
+}
+
+.ProductSection h3 {
+text-align: center;
+font-family: Concert One;
+font-size: 1.5em;
+margin: 0em 0.25em;
+}
+
+.Toadd {
+    background-color: rgb(221, 213, 213);
+    transition: all .3s ease 0s; 
+    cursor: pointer;
+    text-align: center;
+    margin: auto 0 auto 0; 
+    padding: 0.3em;
+    font-size: 1.5em;
+    width: 5em;
+    font-family: Concert One;
+    font-weight: 300;
+    border-radius: 1em;
+}
+
+.Toadd:hover {
+    bottom: 50px;
+    opacity: 1;
+    text-decoration: none;
+    background-color: orange;  
+}
+
+#footerContent {
+    position: relative;
+    margin: 0 auto ;
+    padding: 0.5em;
+    border-top: 2px solid #171b1b;
+    text-align: center;
+    font-weight: bold; 
+    background-color: white; 
+    color: black;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: block;
+}
+
+/*----------Cart page---------*/
+
+.productsContainer {
+    max-width: 1050px;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+.productsContainer i{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.productsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0 auto;
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.ProductType {
+    background-color: black;
+    color: white;
+    padding-left: 1em;
+    border-radius: 0.5em;
+    font-weight: 700;
+}
+
+.heart {
+    font-size:2em;
+    transition: all .3s ease 0s;
+    color: rgb(206, 194, 194);
+}
+
+.headerModel {
+    border-bottom: 2px solid gray;
+}
+
+.footerModel {
+    border-top: 2px solid gray;
+}
+
+.w3-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+#orderbutton {
+    background-color: rgb(45, 228, 241);
+    float: right;
+    margin: 1em 7em;
+}
+
+.product{
+    display: inline-block;
+    width: 30% ;
+    padding:0; 
+    margin: 0;
+}
+
+.quantity {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding:0;
+    margin: 0;
+}
+
+.total {  
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding:0;
+    margin: 0;  
+}
+
+.total p {
+    padding:0;
+    margin:0;
+}
+
+.styleInput {
+    width: 40%;
+}
+
+.BlockModel {
+    background-color: rgb(233, 225, 225);
+    margin: 0.2em;
+    padding:0em;
+}
+
+.MytotalPrice {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background-color:  rgb(233, 225, 225);
+    border: 2px black solid;
+    border-radius: 1em;
+}
+
+.modelTitels h4 {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 ;
+    padding-left: 1em;
+    width: 25%;   
+}
+
+.modelTitels {
+    background-color: rgb(185, 142, 142);
+}
+
+#modelProductName {
+    width: 40%;
+}
+
+#modelPrice {
+    width:30%;
+}
+
+#modelQuantity {
+    width:20%;
+}
+
+.HeartInCart {
+    width: 10%;
+    color: rgb(206, 194, 194);
+}
+
+@media (max-width: 340px)  
+ {     
+    .container {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    .Toadd {
+        width: 100%;
+    }
+    .BlockModel {
+        font-size: 0.8em;
+    }
+    #modelProductName {
+        width:30%;
+    }
+    #modelQuantity {
+        width: 30%;
+    }
+    #modelPrice {
+        width: 20%;
+    }
+    .total {
+        width: 20%   
+    }
+    .orderButton {
+        width: 50%;
+    }
+    .BlockModel {
+        font-size: 0.7em;
+    }
+    #modelTitles {
+        font-size: 5px;
+    }
+    .quantity {
+        width: 20%;
+    }
+  } 
+
+  @media (min-width: 340px)  and (max-width: 430px)
+  {   
+    .container {
+        width: 100%;
+    }
+    .Toadd {
+        width: 100%;
+    }     
+    .w3-modal  {
+        width: 100%;
+    }
+    .orderButton {
+        width: 50%;
+    }
+    .BlockModel {
+        font-size: 0.8em;
+    }
+    #modelProductName {
+        width: 30%;
+    }
+    #modelQuantity {
+        width: 36%;
+    }
+    #modelPrice {
+        width: 30%;
+    }
+    .total {
+        width: 20%
+    }
+    .quantity {
+        width: 20%;
+    }
+   }  
+
+   @media (min-width: 430px)  and (max-width: 500px)
+  {   
+    .container {
+        width: 70%;
+    }
+    .Toadd {
+        width: 100%;
+    }   
+    .quantity {
+        width: 10%;
+    }
+    .BlockModel {
+        font-size: 0.8em;
+    }
+    #modelProductName {
+        width: 35%;
+    }
+
+    #modelQuantity {
+        width: 32%;
+    } 
+   } 
+
+   @media (min-width: 500px)  and (max-width: 900px)
+   {   
+     .container {
+         width: 40%;
+     }
+     .Toadd {
+         width: 50%;
+     }   
+     .quantity {
+         width: 20%;
+     }
+     #modelQuantity {
+         width: 25%;
+     }
+     .HeartInCart{
+          width: 10%;
+     }
+    } 
+
+    @media (min-width: 900px)  
+   {   
+     .container {
+         width: 25%;
+     }
+     .Toadd {
+         width: 50%;
+     }   
+     .quantity {
+         width: 20%;
+     }
+     #modelQuantity {
+         width: 25%;
+     }
+     .HeartInCart{
+          width: 10%;
+     }
+    } 
+  
+  
